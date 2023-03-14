@@ -43,5 +43,6 @@ my_data_row = my_cur.fetchone()
 streamlit.text("The fruit load list contains:")
 streamlit.text(my_data_row)
 
+# Allow the end user to add a fruit to the list
 
 
